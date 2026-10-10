@@ -33,6 +33,16 @@ The validated sample, analyzer report, and manual comparison are in `artifacts/s
 
 The size-run analyzer recognizes numeric labels only, compares the product's observed options, and cannot establish the expected range. The price and page signals are heuristic and need validation against merchant data before operational use.
 
+## Assignment submission documents
+
+- [Proposed natural-language query architecture, scale safeguards, and defensibility](docs/architecture-and-defensibility.md). It distinguishes the implemented prototype from the proposed 50,000-store architecture; no scale testing is claimed.
+- [Product discovery and prioritization framework](docs/product-thinking.md). It is a proposed framework and does not claim completed merchant research.
+- [AI-assisted workflow and reflection](docs/ai-workflow.md). Prompt themes are paraphrased; this is not a verbatim transcript or a public transcript link.
+- [Real Sporting Feet sample dataset](artifacts/sporting-feet-trainers.json), [analyzer report](artifacts/sporting-feet-trainers.md), and [access, validation, and limitations report](artifacts/sporting-feet-validation.md).
+- [Synthetic mock.shop dataset](artifacts/mock-shop-men.json) and [synthetic analyzer report](artifacts/mock-shop-men.md). These records are fictional demo data.
+
+The real sample is a bounded observation, manually checked for product title and current price against five public product pages. It is not a benchmark or proof of sales, demand, lost sales, inventory history, or analyzer accuracy.
+
 ## Setup
 
 Requires Python 3.10 or newer (Python 3.12 is supported).
@@ -90,7 +100,3 @@ tests/
   data/                     # saved mock.shop and Sporting Feet UCP responses
   test_*.py                 # analyzer, collector, and reporting tests
 ```
-
-## Next milestone
-
-Use an explicitly authorized real storefront or a merchant-provided export and manually validate extracted fields against source pages before presenting real-store findings. Then complete the assignment's architecture, safeguards, product-discovery, defensibility, and AI-workflow documentation.
