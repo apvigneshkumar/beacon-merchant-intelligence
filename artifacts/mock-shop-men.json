@@ -1,0 +1,480 @@
+{
+  "schema_version": "1.0",
+  "store_name": "mock.shop",
+  "fictional_demo_data": true,
+  "requested_url": "https://mock.shop/collections/men",
+  "collection_title": "Men",
+  "source_endpoint": "https://mock.shop/api",
+  "observed_at": "2026-10-10T05:25:16.586898+00:00",
+  "max_products": 5,
+  "returned_products": 5,
+  "warnings": [
+    "mock.shop records are fictional demo data, not observations from a real merchant.",
+    "Sales rank, inventory history, and review count are not exposed by this collector; those analyzer inputs remain unknown.",
+    "Variant availability means available for sale, not units on hand or guaranteed fulfillment.",
+    "One page is collected per run; collection/API ordering is only a visibility proxy and is not demand rank.",
+    "The source has more products than this bounded sample (maximum 5); later products were not fetched.",
+    "Hoodie has no verified public product-page URL in the source response.",
+    "Men's T-shirt has no verified public product-page URL in the source response.",
+    "Men's Crewneck has no verified public product-page URL in the source response.",
+    "Sweatpants has no verified public product-page URL in the source response.",
+    "Shorts has no verified public product-page URL in the source response."
+  ],
+  "products": [
+    {
+      "product_id": "gid://shopify/Product/7982904639510",
+      "title": "Hoodie",
+      "url": null,
+      "collection_position": 1,
+      "size_option": "Size",
+      "current_price": "90.0",
+      "original_price": null,
+      "variants": [
+        {
+          "name": "Small / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Red",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Olive",
+          "availability": "unavailable"
+        },
+        {
+          "name": "Medium / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Purple",
+          "availability": "unavailable"
+        },
+        {
+          "name": "Medium / Red",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Red",
+          "availability": "available"
+        },
+        {
+          "name": "X-Large / Green",
+          "availability": "available"
+        },
+        {
+          "name": "X-Large / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "X-Large / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "X-Large / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "X-Large / Red",
+          "availability": "available"
+        }
+      ],
+      "description_present": true,
+      "image_count": 15,
+      "review_count": null,
+      "observation_timestamp": "2026-10-10T05:25:16.586898+00:00",
+      "source": "https://mock.shop/api",
+      "sales_rank": null,
+      "sales_rank_source": null,
+      "inventory_age_days": null,
+      "inventory_history_source": null,
+      "currency_codes_observed": [
+        "CAD"
+      ]
+    },
+    {
+      "product_id": "gid://shopify/Product/7982902771734",
+      "title": "Men's T-shirt",
+      "url": null,
+      "collection_position": 2,
+      "size_option": "Size",
+      "current_price": "40.0",
+      "original_price": null,
+      "variants": [
+        {
+          "name": "Small / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Red",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Red",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Red",
+          "availability": "available"
+        },
+        {
+          "name": "X-Large / Green",
+          "availability": "available"
+        },
+        {
+          "name": "X-Large / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "X-Large / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "X-Large / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "X-Large / Red",
+          "availability": "available"
+        }
+      ],
+      "description_present": true,
+      "image_count": 15,
+      "review_count": null,
+      "observation_timestamp": "2026-10-10T05:25:16.586898+00:00",
+      "source": "https://mock.shop/api",
+      "sales_rank": null,
+      "sales_rank_source": null,
+      "inventory_age_days": null,
+      "inventory_history_source": null,
+      "currency_codes_observed": [
+        "CAD"
+      ]
+    },
+    {
+      "product_id": "gid://shopify/Product/7982905098262",
+      "title": "Men's Crewneck",
+      "url": null,
+      "collection_position": 3,
+      "size_option": "Size",
+      "current_price": "120.0",
+      "original_price": null,
+      "variants": [
+        {
+          "name": "Small / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Red",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Red",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Red",
+          "availability": "available"
+        }
+      ],
+      "description_present": true,
+      "image_count": 20,
+      "review_count": null,
+      "observation_timestamp": "2026-10-10T05:25:16.586898+00:00",
+      "source": "https://mock.shop/api",
+      "sales_rank": null,
+      "sales_rank_source": null,
+      "inventory_age_days": null,
+      "inventory_history_source": null,
+      "currency_codes_observed": [
+        "CAD"
+      ]
+    },
+    {
+      "product_id": "gid://shopify/Product/7982856273942",
+      "title": "Sweatpants",
+      "url": null,
+      "collection_position": 4,
+      "size_option": "Size",
+      "current_price": "35.0",
+      "original_price": null,
+      "variants": [
+        {
+          "name": "Small / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Red",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Red",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Red",
+          "availability": "available"
+        }
+      ],
+      "description_present": true,
+      "image_count": 15,
+      "review_count": null,
+      "observation_timestamp": "2026-10-10T05:25:16.586898+00:00",
+      "source": "https://mock.shop/api",
+      "sales_rank": null,
+      "sales_rank_source": null,
+      "inventory_age_days": null,
+      "inventory_history_source": null,
+      "currency_codes_observed": [
+        "CAD"
+      ]
+    },
+    {
+      "product_id": "gid://shopify/Product/7983594471446",
+      "title": "Shorts",
+      "url": null,
+      "collection_position": 5,
+      "size_option": "Size",
+      "current_price": "45.0",
+      "original_price": null,
+      "variants": [
+        {
+          "name": "Small / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Small / Red",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Medium / Red",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Green",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Olive",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Ocean",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Purple",
+          "availability": "available"
+        },
+        {
+          "name": "Large / Red",
+          "availability": "available"
+        }
+      ],
+      "description_present": true,
+      "image_count": 5,
+      "review_count": null,
+      "observation_timestamp": "2026-10-10T05:25:16.586898+00:00",
+      "source": "https://mock.shop/api",
+      "sales_rank": null,
+      "sales_rank_source": null,
+      "inventory_age_days": null,
+      "inventory_history_source": null,
+      "currency_codes_observed": [
+        "CAD"
+      ]
+    }
+  ]
+}

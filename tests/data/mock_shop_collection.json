@@ -1,0 +1,56 @@
+{
+  "data": {
+    "collections": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Collection/100",
+          "title": "Test Boots",
+          "handle": "test-boots",
+          "products": {
+            "nodes": [
+              {
+                "id": "gid://shopify/Product/200",
+                "title": "Demo Trail Boot",
+                "handle": "demo-trail-boot",
+                "onlineStoreUrl": null,
+                "descriptionHtml": "<p>Built for a fixture test.</p>",
+                "availableForSale": true,
+                "options": [{"name": "Size", "values": ["5", "6", "7", "8", "9", "10", "11"]}],
+                "images": {"nodes": [{"url": "https://cdn.mock.shop/boot.jpg"}], "pageInfo": {"hasNextPage": false}},
+                "priceRange": {"minVariantPrice": {"amount": "50.00", "currencyCode": "USD"}},
+                "variants": {
+                  "nodes": [
+                    {"id": "v5", "title": "5", "availableForSale": true, "price": {"amount": "50.00", "currencyCode": "USD"}, "compareAtPrice": {"amount": "100.00", "currencyCode": "USD"}, "selectedOptions": [{"name": "Size", "value": "5"}]},
+                    {"id": "v6", "title": "6", "availableForSale": false, "price": {"amount": "50.00", "currencyCode": "USD"}, "compareAtPrice": {"amount": "100.00", "currencyCode": "USD"}, "selectedOptions": [{"name": "Size", "value": "6"}]},
+                    {"id": "v7", "title": "7", "availableForSale": false, "price": {"amount": "50.00", "currencyCode": "USD"}, "compareAtPrice": {"amount": "100.00", "currencyCode": "USD"}, "selectedOptions": [{"name": "Size", "value": "7"}]},
+                    {"id": "v8", "title": "8", "availableForSale": false, "price": {"amount": "50.00", "currencyCode": "USD"}, "compareAtPrice": {"amount": "100.00", "currencyCode": "USD"}, "selectedOptions": [{"name": "Size", "value": "8"}]},
+                    {"id": "v9", "title": "9", "availableForSale": false, "price": {"amount": "50.00", "currencyCode": "USD"}, "compareAtPrice": {"amount": "100.00", "currencyCode": "USD"}, "selectedOptions": [{"name": "Size", "value": "9"}]},
+                    {"id": "v10", "title": "10", "availableForSale": false, "price": {"amount": "50.00", "currencyCode": "USD"}, "compareAtPrice": {"amount": "100.00", "currencyCode": "USD"}, "selectedOptions": [{"name": "Size", "value": "10"}]},
+                    {"id": "v11", "title": "11", "availableForSale": true, "price": {"amount": "50.00", "currencyCode": "USD"}, "compareAtPrice": {"amount": "100.00", "currencyCode": "USD"}, "selectedOptions": [{"name": "Size", "value": "11"}]}
+                  ],
+                  "pageInfo": {"hasNextPage": false}
+                }
+              },
+              {
+                "id": "gid://shopify/Product/201",
+                "title": "Incomplete Product",
+                "handle": "incomplete-product",
+                "onlineStoreUrl": null,
+                "options": [{"name": "Color", "values": ["Grey"]}],
+                "images": {"nodes": [], "pageInfo": {"hasNextPage": false}},
+                "priceRange": {"minVariantPrice": {"amount": "not-a-price", "currencyCode": "CAD"}},
+                "variants": {
+                  "nodes": [
+                    {"id": "v-unknown", "title": "Grey", "availableForSale": "unknown", "price": {"amount": "-4", "currencyCode": "CAD"}, "compareAtPrice": null, "selectedOptions": [{"name": "Color", "value": "Grey"}]}
+                  ],
+                  "pageInfo": {"hasNextPage": false}
+                }
+              }
+            ],
+            "pageInfo": {"hasNextPage": true}
+          }
+        }
+      ]
+    }
+  }
+}

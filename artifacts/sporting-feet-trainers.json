@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0",
+  "store_name": "Sporting Feet",
+  "fictional_demo_data": false,
+  "requested_url": "https://www.sporting-feet.com/",
+  "query": "trainers",
+  "source_endpoint": "https://sporting-feet.myshopify.com/api/ucp/mcp",
+  "source_method": "UCP MCP read-only search_catalog",
+  "observed_at": "2026-10-10T05:47:40.201899+00:00",
+  "max_products": 5,
+  "returned_products": 5,
+  "warnings": [
+    "Real, public Sporting Feet catalog data; read-only UCP search. No cart or checkout operation was used.",
+    "Search result order is not sales rank or collection position; those values remain unknown.",
+    "UCP catalog search defaults to sale-ready products and may omit wholly unavailable products.",
+    "Review count, inventory history/age, and exact product image count are not exposed by this search response.",
+    "Variant availability is the source's sale-ready boolean, not units on hand or guaranteed fulfillment.",
+    "The search response does not expose variant pagination completeness; counts and size runs cover returned variants only.",
+    "A single observed discount is a review prompt and does not establish overstock.",
+    "More matching products exist; only the first bounded page of 5 was collected.",
+    "Brooks Divide 6 GTX, Women's media are previews; exact product image count remains unknown.",
+    "Brooks Adrenaline GTS 25, Women's media are previews; exact product image count remains unknown.",
+    "Brooks Cascadia 19, Women's media are previews; exact product image count remains unknown.",
+    "FitFlop RTG Leather/Suede Sneakers E4R media are previews; exact product image count remains unknown.",
+    "adidas Tensaur Cross Trainer, Junior media are previews; exact product image count remains unknown."
+  ],
+  "products": [
+    {
+      "product_id": "gid://shopify/Product/15212963234171",
+      "title": "Brooks Divide 6 GTX, Women's",
+      "url": "https://www.sporting-feet.com/products/w-divide-6-gtx-120448",
+      "collection_position": null,
+      "size_option": "Size",
+      "current_price": "120",
+      "original_price": null,
+      "variants": [
+        {
+          "name": "4.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "5.5",
+          "availability": "available"
+        },
+        {
+          "name": "6",
+          "availability": "available"
+        },
+        {
+          "name": "6.5",
+          "availability": "available"
+        },
+        {
+          "name": "7",
+          "availability": "available"
+        },
+        {
+          "name": "7.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "8",
+          "availability": "available"
+        },
+        {
+          "name": "8.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "9",
+          "availability": "unavailable"
+        }
+      ],
+      "description_present": true,
+      "image_count": null,
+      "review_count": null,
+      "observation_timestamp": "2026-10-10T05:47:40.201899+00:00",
+      "source": "https://sporting-feet.myshopify.com/api/ucp/mcp",
+      "sales_rank": null,
+      "sales_rank_source": null,
+      "inventory_age_days": null,
+      "inventory_history_source": null,
+      "currency_codes_observed": [
+        "GBP"
+      ]
+    },
+    {
+      "product_id": "gid://shopify/Product/15396010918267",
+      "title": "Brooks Adrenaline GTS 25, Women's",
+      "url": "https://www.sporting-feet.com/products/w-adrenaline-gts-25-120444",
+      "collection_position": null,
+      "size_option": "Size",
+      "current_price": "145",
+      "original_price": null,
+      "variants": [
+        {
+          "name": "4.5",
+          "availability": "available"
+        },
+        {
+          "name": "5",
+          "availability": "available"
+        },
+        {
+          "name": "5.5",
+          "availability": "available"
+        },
+        {
+          "name": "6",
+          "availability": "available"
+        },
+        {
+          "name": "6.5",
+          "availability": "available"
+        },
+        {
+          "name": "7",
+          "availability": "available"
+        },
+        {
+          "name": "7.5",
+          "availability": "available"
+        },
+        {
+          "name": "8",
+          "availability": "available"
+        },
+        {
+          "name": "8.5",
+          "availability": "available"
+        },
+        {
+          "name": "9",
+          "availability": "unavailable"
+        }
+      ],
+      "description_present": true,
+      "image_count": null,
+      "review_count": null,
+      "observation_timestamp": "2026-10-10T05:47:40.201899+00:00",
+      "source": "https://sporting-feet.myshopify.com/api/ucp/mcp",
+      "sales_rank": null,
+      "sales_rank_source": null,
+      "inventory_age_days": null,
+      "inventory_history_source": null,
+      "currency_codes_observed": [
+        "GBP"
+      ]
+    },
+    {
+      "product_id": "gid://shopify/Product/15223716675963",
+      "title": "Brooks Cascadia 19, Women's",
+      "url": "https://www.sporting-feet.com/products/w-cascadia-19-120446",
+      "collection_position": null,
+      "size_option": "Size",
+      "current_price": "115",
+      "original_price": "135",
+      "variants": [
+        {
+          "name": "4.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "5",
+          "availability": "available"
+        },
+        {
+          "name": "5.5",
+          "availability": "available"
+        },
+        {
+          "name": "6",
+          "availability": "unavailable"
+        },
+        {
+          "name": "6.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "7",
+          "availability": "unavailable"
+        },
+        {
+          "name": "7.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "8",
+          "availability": "unavailable"
+        },
+        {
+          "name": "8.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "9",
+          "availability": "unavailable"
+        }
+      ],
+      "description_present": true,
+      "image_count": null,
+      "review_count": null,
+      "observation_timestamp": "2026-10-10T05:47:40.201899+00:00",
+      "source": "https://sporting-feet.myshopify.com/api/ucp/mcp",
+      "sales_rank": null,
+      "sales_rank_source": null,
+      "inventory_age_days": null,
+      "inventory_history_source": null,
+      "currency_codes_observed": [
+        "GBP"
+      ]
+    },
+    {
+      "product_id": "gid://shopify/Product/15368686961019",
+      "title": "FitFlop RTG Leather/Suede Sneakers E4R",
+      "url": "https://www.sporting-feet.com/products/rtg-leather-suede-sneakers-e4r",
+      "collection_position": null,
+      "size_option": "Size",
+      "current_price": "90",
+      "original_price": null,
+      "variants": [
+        {
+          "name": "4.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "5",
+          "availability": "available"
+        },
+        {
+          "name": "5.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "6",
+          "availability": "available"
+        },
+        {
+          "name": "6.5",
+          "availability": "available"
+        },
+        {
+          "name": "7",
+          "availability": "available"
+        },
+        {
+          "name": "7.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "8",
+          "availability": "unavailable"
+        },
+        {
+          "name": "8.5",
+          "availability": "unavailable"
+        },
+        {
+          "name": "9",
+          "availability": "unavailable"
+        }
+      ],
+      "description_present": true,
+      "image_count": null,
+      "review_count": null,
+      "observation_timestamp": "2026-10-10T05:47:40.201899+00:00",
+      "source": "https://sporting-feet.myshopify.com/api/ucp/mcp",
+      "sales_rank": null,
+      "sales_rank_source": null,
+      "inventory_age_days": null,
+      "inventory_history_source": null,
+      "currency_codes_observed": [
+        "GBP"
+      ]
+    },
+    {
+      "product_id": "gid://shopify/Product/7343532900545",
+      "title": "adidas Tensaur Cross Trainer, Junior",
+      "url": "https://www.sporting-feet.com/products/tensaur-c-2",
+      "collection_position": null,
+      "size_option": "Size",
+      "current_price": "35",
+      "original_price": null,
+      "variants": [
+        {
+          "name": "11",
+          "availability": "unavailable"
+        },
+        {
+          "name": "12",
+          "availability": "available"
+        },
+        {
+          "name": "13",
+          "availability": "available"
+        },
+        {
+          "name": "1",
+          "availability": "unavailable"
+        },
+        {
+          "name": "2",
+          "availability": "unavailable"
+        }
+      ],
+      "description_present": true,
+      "image_count": null,
+      "review_count": null,
+      "observation_timestamp": "2026-10-10T05:47:40.201899+00:00",
+      "source": "https://sporting-feet.myshopify.com/api/ucp/mcp",
+      "sales_rank": null,
+      "sales_rank_source": null,
+      "inventory_age_days": null,
+      "inventory_history_source": null,
+      "currency_codes_observed": [
+        "GBP"
+      ]
+    }
+  ]
+}
